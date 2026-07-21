@@ -117,7 +117,9 @@ footer{
 আমি Website Design এবং Front-end Development নিয়ে কাজ করি।
 </p>
 
-<a class="btn" href="https://www.facebook.com/" target="_blank">
+<a class="btn" href="https://www.facebook.com/share/1DG1g3fVZz/" target="_blank">
+Hire Me
+</a> target="_blank">
 Hire Me
 </a>
 
