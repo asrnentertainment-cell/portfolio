@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>আমার ব্লগ</title>
-    <style>
-        body{
-            margin:0;
-            font-family:Arial,sans-serif;
-            background:#f4f4f4;
-        }
-        header{
-            background:#0077cc;
-            color:white;
-            text-align:center;
-            padding:20px;
-        }
-        nav{
-            background:#005fa3;
-            text-align:center;
+
 <!DOCTYPE html>
 <html lang="bn">
 <head>
@@ -36,7 +16,7 @@
 
 body{
     background:#0f172a;
-    color:#fff;
+    color:white;
 }
 
 header{
@@ -51,6 +31,7 @@ header h1{
 
 header p{
     color:#38bdf8;
+    margin-top:8px;
 }
 
 nav{
@@ -61,6 +42,7 @@ nav a{
     color:white;
     text-decoration:none;
     margin:10px;
+    font-weight:bold;
 }
 
 .hero{
@@ -69,21 +51,28 @@ nav a{
 }
 
 .hero h2{
-    font-size:35px;
+    font-size:40px;
 }
 
 .hero span{
     color:#38bdf8;
 }
 
-.hero button{
+.hero p{
     margin-top:20px;
-    padding:12px 25px;
-    border:none;
+    font-size:20px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
     background:#38bdf8;
     color:#000;
-    border-radius:8px;
-    cursor:pointer;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 section{
@@ -96,18 +85,16 @@ section{
     background:#1e293b;
     padding:20px;
     border-radius:12px;
-    margin-top:20px;
 }
 
 footer{
     text-align:center;
     padding:20px;
-    background:#1e293b;
-    margin-top:30px;
+    background:#111827;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
@@ -124,39 +111,34 @@ footer{
 
 <div class="hero">
 <h2>Hi, I'm <span>Alif</span></h2>
-<p>আমি একজন Professional Freelancer। আমি সুন্দর ও আধুনিক Website Design এবং Front-end Development নিয়ে কাজ করি। আমার লক্ষ্য হলো ক্লায়েন্টদের জন্য দ্রুত, সুন্দর এবং মানসম্মত ওয়েবসাইট তৈরি করা।</p>
 
-<button onclick="alert('ধন্যবাদ! যোগাযোগ করুন।')">Hire Me</button>
+<p>
+আমি একজন Professional Freelancer।<br>
+আমি Website Design এবং Front-end Development নিয়ে কাজ করি।
+</p>
+
+<a class="btn" href="https://www.facebook.com/" target="_blank">
+Hire Me
+</a>
+
 </div>
 
 <section>
+
 <h2>About Me</h2>
 
 <div class="card">
 <p>
-আমার নাম <b>আলিফ</b>। আমি একজন Freelancer। আমি HTML, CSS এবং JavaScript দিয়ে আধুনিক ওয়েবসাইট তৈরি করি। নতুন প্রযুক্তি শিখতে এবং সৃজনশীল ডিজাইন করতে আমার ভালো লাগে।
+আমার নাম <b>আলিফ</b>। আমি একজন Freelancer।
+আমি HTML, CSS এবং JavaScript দিয়ে আধুনিক ওয়েবসাইট তৈরি করি।
+আমার লক্ষ্য হলো সুন্দর, দ্রুত এবং রেসপন্সিভ ওয়েবসাইট তৈরি করা।
 </p>
-</div>
-
-<div class="card">
-<h3>My Skills</h3>
-<p>✔ HTML</p>
-<p>✔ CSS</p>
-<p>✔ JavaScript</p>
-<p>✔ Responsive Design</p>
-</div>
-
-<div class="card">
-<h3>My Services</h3>
-<p>🌐 Website Design</p>
-<p>💻 Landing Page</p>
-<p>📱 Responsive Website</p>
 </div>
 
 </section>
 
 <footer>
-© 2026 Alif | All Rights Reserved
+© 2026 Alif | Freelancer
 </footer>
 
 </body>
