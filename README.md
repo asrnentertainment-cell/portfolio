@@ -111,7 +111,8 @@ footer{
 
 <div class="hero">
 <h2>Hi, I'm <span>Alif</span></h2>
-
+<img src="profile.jpg" alt="Alif"
+style="width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid #38bdf8;box-shadow:0 0 20px rgba(56,189,248,.5);margin-bottom:20px;">
 <p>
 আমি একজন Professional Freelancer।<br>
 আমি Website Design এবং Front-end Development নিয়ে কাজ করি।
