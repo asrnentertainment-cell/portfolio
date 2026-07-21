@@ -119,7 +119,55 @@ padding:25px;
 border-radius:12px;
 line-height:1.8;
 }
+/* Welcome Screen */
+#welcome-screen{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    transition:opacity 1s ease;
+}
 
+.welcome-box{
+    text-align:center;
+}
+
+.welcome-box h1{
+    font-size:55px;
+    color:#38bdf8;
+    animation:zoom 1.5s infinite alternate;
+}
+
+.welcome-box h2{
+    color:#fff;
+    margin-top:10px;
+}
+
+.loader{
+    width:70px;
+    height:70px;
+    margin:30px auto;
+    border:6px solid rgba(255,255,255,.2);
+    border-top:6px solid #38bdf8;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+
+@keyframes zoom{
+    from{transform:scale(1);}
+    to{transform:scale(1.1);}
+}
 </style>
 </head>
 
