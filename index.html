@@ -233,7 +233,10 @@ Client Satisfaction নিশ্চিত করা।
 <a href="https://wa.me/8801989857694" class="btn">
 Hire Me
 </a>
-
+<div class="social-buttons">
+    <button id="likeBtn">❤️ Like</button>
+    <button id="followBtn">👤 Follow</button>
+</div>
 </div>
 
 <div>
@@ -483,5 +486,23 @@ window.addEventListener("load", function () {
     }, 3000);
 });
 </script>
+    <script>
+const likeBtn = document.getElementById("likeBtn");
+const followBtn = document.getElementById("followBtn");
+
+likeBtn.onclick = function () {
+    likeBtn.classList.toggle("active");
+    likeBtn.innerHTML = likeBtn.classList.contains("active")
+        ? "❤️ Liked"
+        : "❤️ Like";
+};
+
+followBtn.onclick = function () {
+    followBtn.classList.toggle("active");
+    followBtn.innerHTML = followBtn.classList.contains("active")
+        ? "✓ Following"
+        : "👤 Follow";
+};
+    </script>
 </body>
 </html>
